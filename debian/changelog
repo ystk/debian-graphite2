@@ -1,13 +1,29 @@
-graphite2 (1.3.5-1~deb8u1) stable-security; urgency=high
+graphite2 (1.3.6-1~deb8u1) stable-security; urgency=high
 
   * rebuild for stable-security 
   * revert ddeb-migration
 
- -- Rene Engelhard <rene@debian.org>  Sun, 24 Jan 2016 11:17:48 +0100
+ -- Rene Engelhard <rene@debian.org>  Wed, 09 Mar 2016 12:11:42 +0100
+
+graphite2 (1.3.6-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 29 Feb 2016 20:52:55 +0100
 
 graphite2 (1.3.5-1) unstable; urgency=medium
 
   * New upstream release
+    - fixes Bidirectional Font BracketPairStack Code Execution Vulnerability
+      (TALOS-2016-0057/CVE-2016-1522)
+    - fixes directrun Opcode Handling Code Execution Vulnerability
+      (TALOS-2016-0058/CVE-2016-1521)
+    - fixes Context Item Code Execution Vulnerability
+      (TALOS-2016-0059/CVE-2016-1523)
+    - fixes Bidirectional Font mFeatureMap Denial of Service Vulnerability
+      (TALOS-2016-0060/CVE-2016-1522)
+    - fixes LocaLookup Denial of Service Vulnerability"
+      (TALOS-2016-0061/CVE-2016-1521)
 
  -- Rene Engelhard <rene@debian.org>  Wed, 20 Jan 2016 23:39:14 +0100
 
